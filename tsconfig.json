@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@config": ["./src/config"],
+      "@utils": ["./src/utils"],
+      "@routes": ["./src/routes"],
+      "@middleware": ["./src/middleware"],
+      "@queries": ["./src/queries"]
+    }
+  },
+  "include": ["src/**/*.ts"]
+}
